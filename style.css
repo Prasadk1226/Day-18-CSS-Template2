@@ -59,8 +59,8 @@ body{
 .parag{
     background-color: black;
     color: aliceblue;
-    margin-top: -4%;
-    padding: 0;
+    /* margin-top: -4%; */
+    /* padding: 0; */
     /* z-index: 2; */
 
 }
@@ -150,6 +150,7 @@ h2,h5{
     .container1{
         display: inline-block;
         width: 68%;
+        border: 2px solid red;
 
     }
     .fashion{
@@ -158,7 +159,8 @@ h2,h5{
     .container2{
         display: inline-block;
         width: 30%;
-        height: 100%;
+        /* height: 300vh; */
+        border: 2px solid blue;
     }
 
 }
