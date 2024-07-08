@@ -160,7 +160,7 @@ h2,h5{
     .container1{
         display: inline-block;
         width: 58%;
-        border: 2px solid red;
+        /* border: 2px solid red; */
 
     }
     .fashion{
@@ -170,9 +170,10 @@ h2,h5{
         display: inline-block;
         width: 39%;
         /* height: 300vh; */
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
         position: absolute;
         margin-left: 1.8%;
+        margin-top: 1.4%;
     }
 
 }
