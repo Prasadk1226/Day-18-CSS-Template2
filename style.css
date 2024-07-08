@@ -1,6 +1,6 @@
 body{
     width: 100vw;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: lightgray;
@@ -159,7 +159,7 @@ h2,h5{
 @media screen and (min-width : 800px){
     .container1{
         display: inline-block;
-        width: 68%;
+        width: 58%;
         border: 2px solid red;
 
     }
@@ -168,9 +168,11 @@ h2,h5{
     }
     .container2{
         display: inline-block;
-        width: 30%;
+        width: 39%;
         /* height: 300vh; */
         border: 2px solid blue;
+        position: absolute;
+        margin-left: 1.8%;
     }
 
 }
